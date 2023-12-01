@@ -1,0 +1,29 @@
+{
+  "name": "mqtt-debug-djdong",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nutui/nutui-react-taro": "^2.0.16",
+    "@tencent/rainbow-node-sdk": "^0.2.66",
+    "@types/shortid": "^0.0.29",
+    "crypto-js": "^4.1.1",
+    "i": "^0.3.7",
+    "mqtt": "^4.3.7",
+    "npm": "^10.1.0",
+    "pino": "^8.15.1",
+    "pino-pretty": "^10.2.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1"
+  }
+}
